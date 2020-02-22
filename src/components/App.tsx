@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Column } from './components/Column';
-import { todos } from './data';
+import { Column } from './Column';
+import { todos } from '../data';
 import { DragDropContext, DropResult, Droppable } from 'react-beautiful-dnd';
 
 function App() {
